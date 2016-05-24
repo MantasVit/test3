@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="MSEngine">
+      <UniqueIdentifier>{e6df2a99-ce7d-4b56-89d5-a3d497a077bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MSEngine\Header Files">
+      <UniqueIdentifier>{b1fa581d-6ac5-4848-8374-84bd245b8f54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MSEngine\Source Files">
+      <UniqueIdentifier>{c4881af2-f03d-4440-aeda-4b4c1dce49e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dawid">
+      <UniqueIdentifier>{26b97123-8490-42f5-8bd9-3338e397ba77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dawid\Headers">
+      <UniqueIdentifier>{fd42ad12-979c-418c-9403-5cfb4d8317b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dawid\Sources">
+      <UniqueIdentifier>{d489b219-eb49-4a25-ba30-faef522a7b8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Amadeusz">
+      <UniqueIdentifier>{78d848ea-5962-41f0-a1ac-827658e59b2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Amadeusz\Headers">
+      <UniqueIdentifier>{8529878b-e2f0-4631-8496-47588236899b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Amadeusz\Sources">
+      <UniqueIdentifier>{79986294-6031-460a-9e26-76206db99a15}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>MSEngine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineManager.cpp">
+      <Filter>MSEngine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>MSEngine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectBase.cpp">
+      <Filter>MSEngine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>MSEngine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>MSEngine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldSpace.cpp">
+      <Filter>MSEngine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix2D.cpp">
+      <Filter>MSEngine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2D.cpp">
+      <Filter>MSEngine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller.cpp">
+      <Filter>MSEngine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Text.cpp">
+      <Filter>MSEngine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FPS.cpp">
+      <Filter>MSEngine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TTF.cpp">
+      <Filter>MSEngine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseArmour.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseItem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseWeapon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="controls.cpp">
+      <Filter>Dawid\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityBase.cpp">
+      <Filter>MSEngine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>MSEngine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>MSEngine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewFrustum.cpp">
+      <Filter>MSEngine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Update.cpp">
+      <Filter>MSEngine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>MSEngine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Quadtree.cpp">
+      <Filter>MSEngine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Inventory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="town.cpp">
+      <Filter>Dawid\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="levelManager.cpp">
+      <Filter>Dawid\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GameProject\GameProject\Entity.cpp">
+      <Filter>Amadeusz\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GameProject\GameProject\Player.cpp">
+      <Filter>Amadeusz\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Amadeusz\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureDatabase.cpp">
+      <Filter>MSEngine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldSpaceDatabase.cpp">
+      <Filter>MSEngine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectDatabase.cpp">
+      <Filter>MSEngine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityDatabase.cpp">
+      <Filter>MSEngine\Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Camera.h">
+      <Filter>MSEngine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineManager.h">
+      <Filter>MSEngine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>MSEngine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectBase.h">
+      <Filter>MSEngine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>MSEngine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>MSEngine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldSpace.h">
+      <Filter>MSEngine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix2D.h">
+      <Filter>MSEngine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2D.h">
+      <Filter>MSEngine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller.h">
+      <Filter>MSEngine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MSEngine.h">
+      <Filter>MSEngine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Text.h">
+      <Filter>MSEngine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FPS.h">
+      <Filter>MSEngine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TTF.h">
+      <Filter>MSEngine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseWeapon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseArmour.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseItem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="controls.h">
+      <Filter>Dawid\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>MSEngine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewFrustum.h">
+      <Filter>MSEngine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Update.h">
+      <Filter>MSEngine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>MSEngine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Quadtree.h">
+      <Filter>MSEngine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>MSEngine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityBase.h">
+      <Filter>MSEngine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Inventory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="town.h">
+      <Filter>Dawid\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="levelManager.h">
+      <Filter>Dawid\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\GameProject\GameProject\Player.h">
+      <Filter>Amadeusz\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Combat.h">
+      <Filter>Amadeusz\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Amadeusz\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Amadeusz\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureDatabase.h">
+      <Filter>MSEngine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldSpaceDatabase.h">
+      <Filter>MSEngine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectDatabase.h">
+      <Filter>MSEngine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityDatabase.h">
+      <Filter>MSEngine\Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
